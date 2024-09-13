@@ -1,0 +1,51 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.create-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-event input{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.event-button.disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.date-input {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.date-input-label {
+  margin-left: 50px;
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}

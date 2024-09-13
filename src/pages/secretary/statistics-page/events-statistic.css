@@ -1,0 +1,24 @@
+.statistics-section-event-statistic {
+  margin: 20px auto;
+  width: 500px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.label-event-statistic {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.select-event-statistic {
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.h2-event-statistic{
+  text-align: center;
+  margin: 10px 0;
+}

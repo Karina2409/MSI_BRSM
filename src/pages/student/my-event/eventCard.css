@@ -1,0 +1,60 @@
+.event-card {
+  display: flex;
+  background-color: #a5c787;
+  border-radius: 8px;
+  margin: 10px 50px;
+}
+
+.event-image {
+  width: 200px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.event-button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #AE0303;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.event-button.unsubscribe {
+  background-color: gray;
+}
+
+.event-button:hover {
+  background-color: #900101;
+}
+
+.event-button.unsubscribe:hover {
+  background-color: #6a6a6a;
+}
+
+.table-event-card{
+  border-spacing: 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+td:nth-child(1) {
+  width: 25%;
+}
+
+td:nth-child(2) {
+  width: 20%;
+}
+
+td:nth-child(3) {
+  width: 30%;
+}
+
+td:nth-child(4) {
+  width: 25%;
+}
+
+.bold-text{
+  font-weight: 600;
+}
